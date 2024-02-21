@@ -184,6 +184,7 @@ html {
     height: 50px;
     border: solid 1px blue;
     border-radius: 55px;
+    font-size: 2rem;
     color: blue;
     background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
@@ -352,7 +353,9 @@ footer {
 
 @media (max-width: 1200px) {
     .main {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         
     }
 
